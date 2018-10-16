@@ -11,12 +11,12 @@ import './styles/styles.scss'
 
 const store = configureStore();
 
-store.dispatch(addExpense({ description: 'rent', amount: 100, createdAt: 2000}));
-store.dispatch(addExpense({ description: 'Coffee', amount: 1600, createdAt: 1000}));
-store.dispatch(addExpense({ description: 'Books', amount: 1500, createdAt: 5005}));
+// store.dispatch(addExpense({ description: 'rent', amount: 100, createdAt: 2000}));
+// store.dispatch(addExpense({ description: 'Coffee', amount: 1600, createdAt: 1000}));
+// store.dispatch(addExpense({ description: 'Books', amount: 1500, createdAt: 5005}));
 
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+// const state = store.getState();
+// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 // console.log(visibleExpenses);
 // console.log(state);
 
