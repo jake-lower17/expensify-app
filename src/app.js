@@ -8,17 +8,9 @@ import { setTextFilter } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss'
+import './firebase/firebase'
 
 const store = configureStore();
-console.log('testing');
-// store.dispatch(addExpense({ description: 'rent', amount: 100, createdAt: 2000}));
-// store.dispatch(addExpense({ description: 'Coffee', amount: 1600, createdAt: 1000}));
-// store.dispatch(addExpense({ description: 'Books', amount: 1500, createdAt: 5005}));
-
-// const state = store.getState();
-// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-// console.log(visibleExpenses);
-// console.log(state);
 
 const jsx = (
     <Provider store={store}>
