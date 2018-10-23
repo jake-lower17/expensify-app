@@ -1,5 +1,4 @@
-/node_modules
-/public/bundle.js
-/public/styles.css
-/public/styles.css.map
-/public/bundle.js.map
+node_modules/
+public/dist/
+.env.test
+.env.development
